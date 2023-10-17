@@ -1,0 +1,16 @@
+#12 q00 q05 q10 q15 q20 q25 q30 q35 qaa qbb qcc qdd
+#5 q00 qaa qbb qcc qdd
+#7 5 1 2 a b c d
+--TABLA DE TRANSICIONES--
+q05 # q10 # q20 # q00 # q00 # q00 # q00 # q00 #
+q10 # q15 # q25 # q00 qaa # q05 # q05 # q00 qdd # q05 #
+q15 # q20 # q30 # q05 qaa # q00 qbb # q10 # q00 qdd # q10 # 
+q20 # q25 # q35 # q10 qaa # q05 qbb # q15 # q00 qdd # q15 #
+q25 # q30 # q20 # q15 qaa # q10 qbb # q00 qcc # q00 qdd # q20 #
+q30 # q35 # q25 # q20 qaa # q15 qbb # q05 qcc # q00 qdd # q25 #
+q35 # q30 # q30 # q25 qaa # q20 qbb # q10 qcc # q00 qdd # q30 #
+q35 # q35 # q35 # q30 qaa # q25 qbb # q15 qcc # q00 qdd # q35 #
+ # # # # # # # qaa #
+ # # # # # # # qbb #
+ # # # # # # # qcc #
+ # # # # # # # qdd #
